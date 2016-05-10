@@ -31,23 +31,20 @@ Version 3.2 Release notes:
 4. Added delays between each log capturing commands to ensure proper capture logs
 5. Added logic to avaoid capturing of same issues multiple times
 
-.............................................................................................................................................................................................
-
+...............................................................................................................................................
 Version 4.0 Release notes:
 
 1. Added support for multiple devices 
 2. Enhanced HTML reporting module to generate device wise reports for multiple devices
 
-...............................................................................................................................................................................................
-
+...............................................................................................................................................
 Version 4.1 Release notes:
 
 1. Added functionality to detect Shutdown\Reboot and collect logcat till device shutdowns.
 2. Enhanced HTML reporting module to show reboot counts.
 3. Added commands in batch file to delete old logs
 
-
-...............................................................................................................................................................................................
+................................................................................................................................................
 
 Version 4.2 Release notes:
 
@@ -55,16 +52,26 @@ Version 4.2 Release notes:
 2. Added logic to accomodate logcat line containing the process in which Fatal Exception occured.
 3. Enhanced HTML reporting to give the start time of the tool [gives both PC time and DUT time as 
 many times the PC & DUT are not in sync]
-4. Added logic to detect and report abrupt rest and collect logs once device is online 
+
+................................................................................................................................................
+
+Version 5.0 Release notes:
+
+1. Added logic to detect and report abrupt rest and collect logs once device is online
 [ abrupt reset here means reboot without notifying the logcat it is shutting down for e.g "adb reboot"
 where device doesn't gracefully shutdown all the OS services before shutting down ]
 
-................................................................................................................................................................................................
-Version 5.0  Release notes:
+................................................................................................................................................
+Version 5.1  Release notes:
 
 1. Added functionality to take screenshot on occurence of crash in addition to capturing logcat and bugreport
 
-................................................................................................................................................................................................
-Version 5.1  Release notes:
+................................................................................................................................................
+Version 5.2  Release notes:
 
-1. Fixed the addition of additional line while capturing bugreport 
+1. Fixed the addition of additional line while capturing bugreport
+
+................................................................................................................................................
+Version 5.3  Release notes:
+
+1. Added logic to monitor "F" level logs in addition to "E" and "D" level logs.
