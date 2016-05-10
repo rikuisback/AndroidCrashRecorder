@@ -32,6 +32,7 @@ Version 3.2 Release notes:
 5. Added logic to avaoid capturing of same issues multiple times
 
 ...............................................................................................................................................
+
 Version 4.0 Release notes:
 
 1. Added support for multiple devices 
